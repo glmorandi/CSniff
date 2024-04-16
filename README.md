@@ -6,11 +6,6 @@ Simple Linux C++ application built using ImGUI to capture packets.
 ## Description
 The `PacketSniffer` class provides functionality for capturing packets from a network interface using raw sockets. It allows starting and stopping packet capture and provides methods to retrieve captured packets.
 
-# Packet Sniffer Example
-
-## Description
-This example demonstrates a basic workflow using the `PacketSniffer` class to capture and print network packets.
-
 ## Example usage
 An example is available in the `teste.cpp` file.
 
