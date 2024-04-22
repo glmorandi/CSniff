@@ -162,7 +162,7 @@ void drawLowerPane()
                       ImVec2(ImGui::GetWindowWidth() - 15,
                              ImGui::GetWindowHeight() / 2),
                       ImGuiChildFlags_Border);
-    if (ImGui::TreeNode("Ethernet Header"))
+    if (ImGui::TreeNode("Data Link Header"))
     {
         if (selected.first)
         {
@@ -367,10 +367,6 @@ int main(int, char **)
                 drawMain();
                 drawCapturedPackets();
                 drawAbout();
-                if(ImGui::BeginTabItem("Style")){
-                    ImGui::ShowStyleEditor();
-                    ImGui::EndTabItem();
-                }
                 ImGui::EndTabBar();
             }
             ImGui::End();
